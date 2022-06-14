@@ -6,8 +6,6 @@ const _async = require('async');
 
 var profiles = [
     "https://www.linkedin.com/in/vaibhavsisinty/",
-    "https://www.linkedin.com/in/manu-raghavan-84a00716/",
-    "https://www.linkedin.com/in/yash-growth-hacks/"
 ];
 
 _async.parallel(profiles.map(function(_url) {
